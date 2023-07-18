@@ -1,0 +1,238 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: none;
+} */
+
+.container {
+  background: #fafafa;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr;
+}
+
+.header {
+  grid-column: 1 / span 12;
+}
+
+.nav {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.main {
+  grid-column: 3 / span 10;
+  overflow-y: auto;
+}
+
+.intro {
+  background-image: url(../assets/images/Frame\ 105.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.introText {
+  background-image: url(../assets/images/about\ page\ introImg.png);
+  background-size: cover;
+  backface-visibility: visible;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+
+.introText h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -1px;
+}
+
+.introText p {
+  font-size: 0.9rem;
+  margin: 15px 0 10px 0;
+  color: #000000;
+}
+
+.introText li {
+  font-size: 0.85rem;
+  margin: 7px 0 0 20px;
+}
+
+.quickStart {
+  background: #fff;
+  max-width: 96%;
+  min-height: 145px;
+  margin: 40px 0 50px 20px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.quickStart h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-top: 15px;
+  margin-left: 40px;
+  color: rgba(21, 39, 56, 1);
+}
+
+.verticalBorderLine {
+  width: 100%;
+  background: rgb(127, 127, 127);
+  height: 1px;
+  opacity: 0.2;
+  margin: 10px 0;
+}
+
+.quickStart .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.quickStart .col {
+  background-color: #fff;
+  width: 22.5%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.quickStart .col:first-of-type {
+  margin-left: 10px;
+}
+
+.col .colText h4 {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.col .colText p {
+  font-size: 0.7rem;
+  color: rgba(115, 125, 136, 1);
+}
+
+.horizontalBorderLine {
+  height: 50px;
+  background: rgb(77, 77, 78);
+  width: 1px;
+  opacity: 0.2;
+}
+
+.quickAction {
+  max-width: 96%;
+  min-height: 350px;
+  margin: 40px 0 50px 20px;
+}
+
+.quickAction h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgba(12, 35, 60, 1);
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.cardContainer .card {
+  background: #fff;
+  width: 49.5%;
+  min-height: 240px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  padding: 24px;
+  display: flex;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+}
+
+/* .card .cardText {
+  width: 90%;
+  margin-left: 10px;
+  align-items: end;
+} */
+
+.cardText h4 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+  color: rgba(51, 51, 51, 1);
+}
+
+.cardText p {
+  font-size: 0.75rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: rgba(152, 152, 152, 1);
+}
+
+.cardText li {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: rgba(152, 152, 152, 1);
+  margin-left: 20px;
+}
+
+.cardText .btn {
+  margin-top: 20px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn .viewBtn {
+  padding: 7px 25px;
+  background-color: rgba(30, 73, 226, 1);
+  border: none;
+  font: inherit;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn .offerBtn {
+  padding: 7px 20px;
+  background-color: inherit;
+  border: none;
+  font: inherit;
+  color: rgba(30, 30, 30, 1);
+  font-size: 0.7rem;
+  cursor: pointer;
+  border: 1px solid rgba(153, 156, 164, 1);
+  border-radius: 6px;
+}
+
+.viewBtn:active,
+.offerBtn:active {
+  transform: scale(0.95);
+}

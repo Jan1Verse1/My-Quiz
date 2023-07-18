@@ -1,0 +1,30 @@
+header {
+  padding: 0 3%;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  /* position: sticky;
+  top: 0; */
+}
+
+.logo {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.logo h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0c233c;
+}
+
+.logo img {
+  cursor: pointer;
+}

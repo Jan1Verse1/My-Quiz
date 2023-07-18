@@ -1,0 +1,87 @@
+.navContainer {
+  background: linear-gradient(180deg, #2282e1 73.23%, #25b1d8 100%);
+  padding: 30px;
+  color: #fff;
+}
+
+.navIntro {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.card {
+  background: #408dda;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.name {
+  width: 70px;
+}
+
+.name span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.name h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.date p {
+  font-size: 0.8rem;
+}
+
+.border {
+  width: 100%;
+  background: #fff;
+  height: 1px;
+  opacity: 0.2;
+  margin: 30px 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav div {
+  cursor: pointer;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav div img {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+nav a {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a.active div {
+  background: #408dda;
+  border-radius: 5px;
+}

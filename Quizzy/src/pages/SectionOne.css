@@ -1,0 +1,130 @@
+.container {
+    background: #fafafa;
+    height: 100vh;
+}
+
+.sectionHeader {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    color: black;
+    background-color: #ededed;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    align-items: center;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1E49E2;
+    border: 2px solid #1E49E2;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.accordion-title:hover {
+    background-color: #f7f7f7;
+}
+
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+}
+
+.accordion-content {
+    background-color: #ffffff;
+    border-left: 4px solid #1E49E2;
+    color: #333;
+
+}
+
+.formInputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.theForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+.theButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 80vw;
+    margin-top: 24px;
+    padding: 24px;
+    align-self: center;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    position: relative;
+}
+
+a {
+    width: auto;
+}
+
+.viewBtn {
+    padding: 7px 25px;
+    background-color: rgba(30, 73, 226, 1);
+    border: none;
+    font: inherit;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 6px;
+    text-underline-offset: none;
+}
+
+.otherBtn {
+    padding: 7px 25px;
+    border: 1px solid rgba(30, 73, 226, 1);
+    background-color: #ffffff;
+    font: inherit;
+    color: rgba(30, 73, 226, 1);
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.QuizCard {
+    background-image: url("../assets/images/Super-Hero.png");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: max-content;
+    height: 240px;
+    border: 1px solid rgba(30, 73, 226, 1);
+}
