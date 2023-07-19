@@ -120,11 +120,99 @@ a {
 
 .QuizCard {
     background-image: url("../assets/images/Super-Hero.png");
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: max-content;
+    width: 240px;
     height: 240px;
-    border: 1px solid rgba(30, 73, 226, 1);
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.QuizCard1 {
+    background-image: url("../assets/images/Sport.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.QuizCard2 {
+    background-image: url("../assets/images/Animals.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.QuizCard3 {
+    background-image: url("../assets/images/Auto.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.QuizCard4 {
+    background-image: url("../assets/images/World.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.QuizCard5 {
+    background-image: url("../assets/images/General.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid rgba(30, 73, 226, 1); */
+    color: #ffffff;
+}
+
+.cardText {
+    align-self: center;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+}
+
+.thecards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
 }

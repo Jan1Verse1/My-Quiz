@@ -17,26 +17,16 @@ const Contact = () => {
             We'd love to hear from you. Get in touch with one of our
             professionals, specialist groups or KPMG offices.
           </p>
-          <p>KPMG Towers</p>
-          <p>Bishop Abayode Cole Street,</p>
-          <p>Victoria Island,</p>
-          <p>Lagos.</p>
           <p>
-            P: +234 (1) 271 8955 (or 8599)Career & Recruitment Team:{" "}
-            <a href="mailto:NG-FM Careers@ng.kpmg.com">
-              NG-FM Careers@ng.kpmg.com
-            </a>
+            Quizzy Place <br /> 4 Edidi Lane <br /> Idunmota <br /> Lagos
+            <br /> Nigeria
           </p>
+
           <p>
-            People, Performance & Culture:{" "}
-            <a href="mailto:NG-FM PPC Helpdesk@ng.kpmg.com">
-              NG-FM PPC Helpdesk@ng.kpmg.com
-            </a>
+            P: 0700 QUIZZY NIG <br />
+            <a href="#">ourmail</a>
           </p>
         </div>
-        <a href="https://kpmg.com/ng/en/home.html" target="_blank">
-          <button className={classes.seeBtn}>See more</button>
-        </a>
       </main>
     </div>
   );
